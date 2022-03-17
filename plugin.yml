@@ -1,0 +1,13 @@
+name: TabCompleteWhitelist
+main: cloud.stivenfocs.TabCompleteWhitelist.Loader
+version: 1.0
+api-version: 1.17
+authors: [StivenFocs]
+commands:
+  tabcompletewhitelist:
+    description: "Main command of the TabCompleteWhitelist plugin"
+permissions:
+  tabcompletewhitelist.except:
+    default: op
+  tabcompletewhitelist.admin:
+    default: op
